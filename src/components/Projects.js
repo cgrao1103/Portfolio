@@ -11,13 +11,13 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Mancala",
+      description: "Mancala Game Developmwnt ",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Billards",
+      description: "8 Ball Pool Game Development",
       imgUrl: projImg2,
     },
     {
@@ -26,18 +26,18 @@ export const Projects = () => {
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Histogram",
+      
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Tourism",
+      description: "Tourism Website Showcasing a state called GOA",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "ProFile",
+      description: "Employees Management",
       imgUrl: projImg3,
     },
   ];
