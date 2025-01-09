@@ -49,7 +49,9 @@ export const Internships = () => {
                           })
                         }
                         <p1>
-                        Experienced in PHP development with a focus on building and maintaining WordPress sites, themes, and plugins. Proficient in CSS, JavaScript, and familiar with frameworks like Laravel. Strong background in MySQL databases, iterative development, and test-driven development. Skilled in automated testing using PHPUnit, Behat, and Selenium, with expertise in version control systems such as SVN and Git.
+                        As an Intern in CoreCom General Trading and Contracting Est. in the Web Development Internship, September to December 2024. I did hands-on practical training in web development regarding PHP, WordPress, and database management. My freelancing work involved building and maintaining WordPress sites, themes, and plugins, CSS, and JavaScript in conjunction with frameworks like Laravel, then managing databases using MySQL. I also engaged in automatic testing with PHPUnit, Behat, and Selenium tools and played a part in team activity using version controls like SVN and Git.
+
+This has augmented one's technical abilities, particularly in PHP development, iterative tests, and collaborative workflows. Most targets were achieved, yet there were still gaps, especially concerning advanced Laravel use. This internship also proved to be informative, and it will motivate me for future roles in web development. I am deeply grateful to the CoreCom team for their mentorship and support throughout my time with the company.
 </p1>
                       </Row>
                     </Tab.Pane>
