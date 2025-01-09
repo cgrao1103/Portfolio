@@ -457,14 +457,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 15px;
   letter-spacing: 0.8px;
 }
-.background-image-right {
-  top: 20%;
-  position: absolute;
-  bottom: 0;
-  width: 35%;
-  right: 0;
-  z-index: -4;
-}
 
 /************ Projects Css ************/
 .contact {
@@ -699,9 +691,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
 }
 .background-image-right {
-  top: 100%;
   position: absolute;
-  bottom: 200;
+  bottom: 0;
   width: 500%;
   right: 0;
   z-index: -4;
@@ -712,6 +703,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 3;  /* Adjust this value to increase or decrease spacing */
 }
 .internships .project-card img {
-  width: 2000px !important;
+  width: 200px !important;
   height: auto !important;
 }
