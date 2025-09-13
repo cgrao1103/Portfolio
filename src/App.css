@@ -610,86 +610,163 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 
-
+/************ Internships Section ************/
 .internships {
-  padding: 200px 0;
+  padding: 100px 0 150px 0;
   position: relative;
-  background-color: black;
+  background-color: #000;
 }
+
 .internships h2 {
-	font-size: 45px;
-	font-weight: 700;
+  font-size: 45px;
+  font-weight: 700;
   text-align: center;
+  margin-bottom: 20px;
 }
+
 .internships p {
   color: #B8B8B8;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  margin: 14px auto 30px auto;
   text-align: center;
-  width: 56%;
+  width: 60%;
+  margin: 0 auto 40px auto;
 }
 
-.internships p1 {
+.internship-details {
   color: #B8B8B8;
   font-size: 18px;
   letter-spacing: 0.8px;
-  line-height: 1.5em;
-  margin: 14px auto 30px auto;
+  line-height: 1.6em;
   text-align: justify;
-  width: 56%;
+  width: 60%;
+  margin: 20px auto 50px auto;
 }
 
-.internships .nav.nav-pills .nav-item {
-  width: 1000%;
+/* Tabs */
+.internships .nav-pills {
+  width: 70%;
+  margin: 0 auto 50px auto;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
 }
 
-.internships .nav.nav-pills .nav-link.active::before {
-    width: 100% !important;
-}
-.internships .nav.nav-pills .nav-link.active {
-    border: 1px solid rgba(255, 255, 255, 1);
-}
-.nav-link#internships-tabs-tab-first {
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 55px 0px 0px 55px;
-  width: 900%;  /* Adjust width to fit the parent container */
-  height: 1000; /* Let the height adjust automatically */
-  padding: 100px;
+.internships .nav-pills .nav-item {
+  width: 50%;
 }
 
-
-
-.internships-imgbx:hover::before {
-  height: 1000%;
-}
-.internships-txtx {
-  position: absolute;
+.internships .nav-pills .nav-link {
+  background-color: transparent;
+  border-radius: 0;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
   text-align: center;
-  top: 100%;
-  left: 100%;
-  transform: translate(-50%, -50%);
-  transition: 0.5s ease-in-out;
-  opacity: 0;
-  width: 1000%;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  z-index: 0;
 }
-.internships-imgbx:hover .internships-txtx {
-  top: 100%;
-  opacity: 1;
+
+.internships .nav-pills .nav-link::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
 }
-.internships-txtx h4 {
-  font-size: 30px;
+
+.internships .nav-pills .nav-link.active::before {
+  width: 100% !important;
+}
+
+.internships .nav-pills .nav-link.active {
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
+/* Internship Card */
+.internships .project-card {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  background-color: #151515;
+  transition: transform 0.3s ease-in-out;
+}
+
+.internships .project-card:hover {
+  transform: translateY(-10px);
+}
+
+.internships .project-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+}
+
+/* Overlay for details */
+.internships .project-card .proj-txtx {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background: rgba(26, 26, 26, 0.9);
+  color: #fff;
+  text-align: center;
+  transform: translateY(100%);
+  transition: transform 0.5s ease-in-out;
+}
+
+.internships .project-card:hover .proj-txtx {
+  transform: translateY(0%);
+}
+
+.internships .proj-txtx h4 {
+  font-size: 28px;
   font-weight: 700;
-  letter-spacing: 0.8px;
-  line-height: 1.1em;
+  margin-bottom: 10px;
 }
-.internships-txtx span {
-  font-style: italic;
-  font-weight: 400;
+
+.internships .proj-txtx span {
   font-size: 15px;
-  letter-spacing: 0.8px;
+  font-style: italic;
+  color: #B8B8B8;
 }
+
+/* Background Image */
+.internships .background-image-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .internships .nav-pills {
+    width: 90%;
+  }
+  .internships h2 {
+    font-size: 36px;
+  }
+  .internships p,
+  .internship-details {
+    width: 90%;
+  }
+  .internships .proj-txtx h4 {
+    font-size: 24px;
+  }
+}
+
 .background-image-right {
   position: absolute;
   bottom: 0;
