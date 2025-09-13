@@ -1,6 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import proImg from "../assets/img/proImg.png";
+import proImg2 from "../assets/img/proImg2.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -17,7 +18,7 @@ export const Internships = () => {
     {
       title: "Research Assistant",
       description: "University of Guelph",
-      imgUrl: proImg,
+      imgUrl: proImg2,
       details: `As a Research Assistant at the University of Guelph, I explored how wearable sensors and machine learning can be used for emotion recognition. I calibrated and operated Empatica EmbracePlus devices and portable EEG sensors, designed data collection protocols, and synchronized multimodal signals to capture physiological and brainwave activity. Using PyTorch and Scikit-learn, I built and optimized machine learning models, comparing unimodal and multimodal approaches for applications in mental health and adaptive interfaces. This experience strengthened my skills in data preprocessing, signal processing, and model training, and allowed me to present findings to an interdisciplinary research team.`
     }
   ];
